@@ -7,7 +7,7 @@ curl -o- https://raw.githubusercontent.com/Recho1337/prometheus-on-baremetal/mas
 
 2) Write the host names in the `hosts` file and generate the prometheus config file in `/tmp` by doing,
 ```bash
-git clone https://github.com/RobertH1235/prometheus-on-baremetal
+git clone https://github.com/Recho1337/prometheus-on-baremetal
 cd prometheus-on-baremetal/
 python3 get_config.py
 ```
