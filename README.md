@@ -2,7 +2,7 @@
 
 1) To start getting metrics from a set of nodes, execute this on every node
 ```bash
-curl -o- https://raw.githubusercontent.com/RobertH1235/prometheus-on-baremetal/master/exporter.sh | bash
+curl -o- https://raw.githubusercontent.com/Recho1337/prometheus-on-baremetal/master/exporter.sh | bash
 ```
 
 2) Write the host names in the `hosts` file and generate the prometheus config file in `/tmp` by doing,
@@ -14,7 +14,7 @@ python3 get_config.py
 
 2) To start prometheus on the admin node,
 ```bash
-curl -o- https://raw.githubusercontent.com/RobertH1235/prometheus-on-baremetal/master/prometheus.sh | bash
+curl -o- https://raw.githubusercontent.com/Recho1337/prometheus-on-baremetal/master/prometheus.sh | bash
 ```
 
 3) To start Grafana server,
