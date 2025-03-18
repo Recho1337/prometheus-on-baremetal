@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eu
 
-wget https://github.com/prometheus/prometheus/releases/download/v2.26.0/prometheus-2.26.0.linux-amd64.tar.gz
+wget https://github.com/prometheus/prometheus/releases/download/v3.2.1/prometheus-2.26.0.linux-amd64.tar.gz
 tar xvfz prometheus-*.*-amd64.tar.gz
 cd prometheus-*.*-amd64
 
